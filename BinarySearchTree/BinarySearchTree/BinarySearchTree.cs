@@ -56,6 +56,12 @@ namespace BinarySearchTree
         {
             return this.Root;
         }
+        //UC2
+        //Count Of Element in Binary Search Tree
+        public int GetSize()
+        {
+            return count;
+        }
         public void Display(Node<T> node)
         {
             if (node != null)
